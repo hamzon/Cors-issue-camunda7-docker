@@ -1,5 +1,6 @@
 # Cors-issue-camunda7-docker
 correction (Response to preflight request doesn't pass access control check: It does not have HTTP ok status). 
+Surcharge de la classe DefaultApplication.class utilise pour l'api engine-rest.
 4 etapes
 
 1 étape: télécharger les jar suivant: - camunda-engine-rest-core-7.18.0-alpha3.jar 
@@ -11,4 +12,4 @@ correction (Response to preflight request doesn't pass access control check: It 
 
 4 étapes: redemarer camunda7
 
-Surcharge de la classe DefaultApplication.class utilise pour l'api engine-rest. 
+ 
